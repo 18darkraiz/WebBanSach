@@ -1,0 +1,279 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+      
+.top-area{
+    background-color: #ccc;
+    font-size: 15px;
+    padding: 10px;
+}
+    
+.top-area span{
+    vertical-align: middle;
+    margin-left: 22px;
+}
+    
+.top-area a{
+    color: #080808;
+    text-decoration: none;
+}
+
+.top-area a:hover{
+  color: rgb(78, 0, 122);
+}
+
+.header {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+    
+.logo{
+    float: left;
+    width: 169px;
+    height: 69px;
+    float: left;
+}
+    
+.seach{
+    margin-left: 10%;
+    border: 1px solid #ccc;
+}
+    
+.seach-box{
+    background-color: #FFFFFF;
+}
+    
+.seach-input{
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 15px;
+    width: 400px;
+}
+    
+.seach-btn{
+    border: none;
+    background-color: #FFFFFF;
+    padding: 13px 10px;
+    cursor: pointer;
+}
+    
+.topnav {
+    overflow: hidden;
+    background-color: #2c2c2c;
+}
+      
+.nava{
+    width: 100%;
+    margin-left: 130px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+    
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+}
+    
+.topnav a:hover {
+    background-color: #747474;
+    color: #FFFFFF;
+}
+
+.row {
+    width: 100%;
+}
+  
+.column {
+    padding: 10px;
+}
+    
+.column.left {
+    float: left;
+    width: 45%;
+}
+  
+.column.left img{
+  cursor: pointer;
+}
+
+.column.middle {
+    width: 50%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.name{
+    color: #747474;
+    font-size: 36.9px;
+    padding: 4px 0px;
+}
+
+.aut{
+    font-size: 18px;
+    color: #282828;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-weight: 600;
+}
+
+.pro{
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.year{
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.stars{
+    margin-top: 2px;
+}
+
+.stars span {
+    vertical-align: middle;
+}
+
+.mon{
+    font-size: 28px;
+    font-weight:700;
+    color: #A52A2A;
+    margin-top: 5px;
+    padding: 5px 0px;
+}
+
+.btn{
+    width: 169px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    padding: 10px 0px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    opacity: 0.69;
+}
+
+.footer{
+  width: 100%;
+  height: 169px;
+  font-family: 'Open Sans', sans-serif;
+  color: #FFFFFF;
+  background-color: #777777;
+  display: flex;
+  justify-content: space-between;
+}
+  
+.review{
+  margin-top: 36.9px;
+  margin-left: 69px;
+  margin-right: 69px;
+  float: left;
+}
+  
+.review .title{
+  text-align: center;
+  font-weight: 600;
+  padding: 7px 0;
+}
+  
+  
+.review p{
+  margin-bottom: 3px;
+  margin-left: 69px;
+}
+  
+.review img{
+  width: 36.9px;
+  height: 36.9px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+  
+.review a{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+  
+.review a:hover{
+  color: #520079	;
+}
+  
+.review .map{
+  margin: auto;
+  width: 169px;
+  height: auto;
+  border-radius: 0px;
+}
+
+@media screen and (min-width: 69px) and (max-width: 800px) {
+    .column.side, .column.middle {
+      width: 100%;
+    }
+    .review .map{
+        display: none;
+    }
+    .review p{
+        margin-bottom: 50px;
+        margin-left: 10px;
+    }
+    .review{
+        float: left;
+    }
+    .review img{
+        display: none;
+      }
+    .logo{
+        display: none;
+        width: 10px;
+    }
+    .seach-box{
+        background-color: #FFFFFF;
+        margin: auto;
+    }
+    .seach{
+        margin-left: 0px;
+        border: 1px solid #ccc;
+    }
+    
+    .footer{
+        height: 69px;
+    }
+    .column {
+        margin: 20%;
+        padding: 5px;
+        float: none;
+    }
+    .column.middle {
+        width: 40%;
+        font-family: 'Open Sans', sans-serif;
+        margin: auto;
+        float: left;
+    }
+    .nava{
+        width: 100%;
+        margin-left: 10px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+    }
+    .top-area span{
+        vertical-align: middle;
+        margin-left: 10%;
+
+    }
+    .btn{
+        width: 100px;
+        margin-top: 40px;
+        margin-bottom: 0px;
+        padding: 10px 0px;
+        cursor: pointer;
+    }
+}
