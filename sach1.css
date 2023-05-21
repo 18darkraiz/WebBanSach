@@ -216,6 +216,9 @@
 }
 
 @media screen and (min-width: 69px) and (max-width: 800px) {
+    .column.left img{
+      width: 50%; 
+    }
     .column.side, .column.middle {
       width: 100%;
     }
